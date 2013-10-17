@@ -3,7 +3,8 @@
     "name": "dlib_make",
     "cmake_dir": "dlib",
     "make_target": "dlib",
-    "outs": [ "build/libdlib.a" ]
+    "cmake_args": [ "-DDLIB_ISO_CPP_ONLY=ON" ],
+    "outs": [ "$GEN_DIR/build/libdlib.a" ]
   } },
   { "cc_library": {
     "name": "dlib_headers",
