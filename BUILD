@@ -4,7 +4,8 @@
     "cmake_dir": "dlib",
     "make_target": "dlib",
     "cmake_args": [ "-DDLIB_ISO_CPP_ONLY=ON" ],
-    "outs": [ "$GEN_DIR/build/libdlib.a" ]
+    "outs": [ "$GEN_DIR/build/libdlib.a" ],
+    "licenses": [ "http://opensource.org/licenses/BSL-1.0" ]
   } },
   { "cc_library": {
     "name": "dlib_headers",
